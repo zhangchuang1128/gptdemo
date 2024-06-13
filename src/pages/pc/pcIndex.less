@@ -1,0 +1,577 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.pcContent {
+  height: 100%;
+}
+
+.model {
+  width: 600px;
+  height: 700px;
+  background-color: rgba(249, 249, 249, 0.9);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -350px 0 0 -300px;
+  border-radius: 20px;
+}
+
+.isMobile_model {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.regmodel {
+  width: 600px;
+  height: 850px;
+  background-color: rgba(249, 249, 249, 0.9);
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  margin: -350px 0 0 -300px;
+  border-radius: 20px;
+}
+
+.img_logo {
+  width: 100%;
+  display: flex;
+  margin: 60px 0;
+}
+
+.login {
+  color: #39a1d9;
+  font-weight: 600;
+  margin-left: 22px;
+  margin-bottom: 3px;
+}
+
+.login_box {
+  /* background-color: #39a1d9; */
+  width: 480px;
+  margin: 0 auto;
+}
+
+.isMobile_login_box {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+// .line {
+//   width: 80px;
+//   height: 8px;
+//   background-color: #39a1d9;
+// }
+
+.username_box {
+  margin-top: 8px;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+}
+
+.username_icon {
+  margin-top: 17px;
+}
+
+.password_icon {
+  margin-top: 15px;
+}
+
+.username {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  outline-style: none;
+  font-size: 20px;
+}
+
+.change_box {
+  height: 60px;
+}
+
+.login_button {
+  // background-color: #39a1d9;
+  border: #ffffff 3px solid;
+  width: 135px;
+  height: 45px;
+  border-radius: 10px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.register {
+  font-size: 14px;
+  color: #39a1d9;
+  text-decoration: none;
+}
+
+.remark {
+  font-size: 14px;
+  color: #999999;
+}
+
+.registerForm .ant-form-item {
+  margin-bottom: 12px !important;
+}
+
+.demo-logo-vertical {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.collapsed {
+  font-size: 15px;
+  // width: 15px;
+  height: 60px;
+  position: absolute;
+  left: -18px;
+}
+
+.radius_top {
+  background-color: #39a1d9;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 100%;
+
+  .circle {
+    background-color: #f5f5f5;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 100%;
+  }
+
+  .bottom {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: #f5f5f5;
+    top: 50px;
+  }
+
+  .right {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    background-color: #f5f5f5;
+    left: 50px;
+  }
+}
+
+.radius_bottom {
+  background-color: #39a1d9;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+
+  .circle {
+    background-color: #f5f5f5;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 100%;
+  }
+
+  .bottom {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: #f5f5f5;
+    top: 0;
+  }
+
+  .right {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    background-color: #f5f5f5;
+    left: 50px;
+  }
+}
+
+.line {
+  width: 99%;
+  height: 1px;
+  background-color: #39a1d9;
+  border: 1px solid #39a1d9;
+  margin-bottom: 10px;
+}
+
+.chatGptInput {
+  border: 1px solid #39a1d9;
+  border-radius: 0px;
+width: 100%;
+  .ant-select-selector {
+    border: none !important;
+  }
+
+  padding-right: 50px;
+}
+
+.isMobile_chatGptInput {
+  border: 1px solid #39a1d9;
+  border-radius: 0px;
+  position: fixed;
+  bottom: 20px;
+
+  .ant-select-selector {
+    border: none !important;
+  }
+
+  padding-right: 50px;
+}
+
+.addSystemRole {
+  .ant-form-item {
+    width: 100% !important;
+  }
+
+  border: 1px solid #39a1d9;
+  border-radius: 0px;
+
+  .ant-select-selector {
+    border: none !important;
+  }
+}
+
+.inputButton {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  // border-radius: 0px;
+}
+.isMobile_inputButton{
+  position: fixed;
+  bottom: 24px;
+  right: 2px;
+}
+.photo {
+  height: 45px;
+  width: 45px;
+  flex-shrink: 0;
+  background-color: #39a1d9;
+  border-radius: 100%;
+  line-height: 45PX;
+  font-size: 25PX;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 20PX;
+}
+
+.messageTime {
+  // margin-left: 55px;
+  font-size: 10px;
+  margin-bottom: 20px;
+  // margin-top: -10px;
+  color: #6d6c6c;
+}
+
+.messagesBox {
+  height: 90%;
+  overflow: scroll;
+
+}
+
+.messagesBox::-webkit-scrollbar {
+  display: none
+}
+
+.Favorites {
+  color: #39a1d9 !important;
+}
+
+.clearChat {
+  background-color: #f75053 !important;
+  border-radius: 20px !important;
+  height: 30px !important;
+  width: 130px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.favoritesBox::-webkit-scrollbar {
+  display: none
+}
+
+.favoritesPage {
+  position: fixed;
+  bottom: 40px;
+}
+
+.favoritesQuestion {
+  font-size: 14px;
+  // font-weight: 700;
+  font-family: "Microsoft Yahei";
+  margin-bottom: 5px;
+}
+
+.favoritesAnswer {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.favoritesTime {
+  font-size: 14px;
+  color: #6d6c6c;
+}
+
+.ant-tabs-tab-btn {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emchat_settings {
+  float: right;
+  width: 35%;
+  border: 2px solid #39a1d9;
+  // height: 100px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+
+  .emchat_settings_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #6d6d6c;
+  }
+}
+
+.hint {
+  width: 500px;
+  position: absolute;
+  z-index: 9;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  // bottom: 0;
+  bottom: 25px;
+  right: 0;
+  border: 1px solid #ccccc1;
+  border-radius: 5px;
+}
+
+.ant-tooltip {
+  z-index: 5;
+}
+
+.Em_Question_button {
+  background-color: #48a5d9 !important;
+  color: #fff !important;
+  font-weight: 700;
+  border-radius: 20px;
+  margin: 5px 0;
+}
+
+.yes {
+  color: #fff;
+  background-color: #2fb699;
+  font-size: 14px;
+  font-weight: 600;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.no {
+  color: #fff;
+  background-color: #f75257;
+  font-size: 14px;
+  font-weight: 600;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.file_BUTTON {
+  padding: 0 40PX !important;
+  border-radius: 20PX !important;
+}
+
+.ant-upload-list {
+  display: none;
+}
+
+.filter_form .ant-form-item {
+  margin-bottom: 0px !important;
+}
+
+.ant-menu {
+  background-color: #39a1d9 !important;
+}
+
+.ant-upload-drag-icon .anticon-cloud-upload {
+  font-size: 80px !important;
+}
+
+.ant-menu-title-content {
+  font-size: 16px;
+  font-weight: 600;
+  // color: #ffffff;
+}
+
+.ant-tabs-content {
+  height: 100%;
+
+  .ant-tabs-tabpane {
+    height: 100%;
+
+    .favoritesBox {
+      height: 95%;
+      overflow: scroll;
+
+    }
+  }
+}
+
+.ant-tabs {
+  height: 100%;
+}
+
+.ant-spin-nested-loading {
+  height: 100%;
+
+  .ant-spin-container {
+    height: 100%;
+  }
+}
+
+.ant-collapse-header {
+  align-items: center !important;
+}
+
+.anticon-exclamation-circle {
+  float: left;
+  padding-right: 3px;
+  margin-top: 3px;
+}
+
+.Rate_box {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+.TabsTitle {
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+.ant-layout-sider-children {
+  overflow: scroll;
+}
+
+.ant-layout-sider-children::-webkit-scrollbar {
+  display: none
+}
+
+.Modal_Button {
+  padding: 0 40PX !important;
+  border-radius: 20PX !important;
+}
+
+.copyParent {
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.copyHeader {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  line-height: 14px;
+}
+
+.copyChildrenSpan {
+  float: right;
+  margin-right: 15px;
+}
+
+.copyChildrenCopy {
+  float: right;
+  color: chartreuse;
+}
+
+.anticon-star {
+  margin-top: 5px !important;
+}
+
+.mdStyle {
+  width: 100%;
+  white-space: normal;
+
+  P {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 0;
+    // width: 100%;
+
+    .hljs-customer {
+      overflow-x: auto
+    }
+  }
+
+  ul {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  ol {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  li {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+}
